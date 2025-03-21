@@ -29,7 +29,7 @@ This project uses **GraphHopper** and **Google OR-Tools** to generate optimal ro
    Use the `config-example.yml` content in this repository, which includes elevation and custom profiles.
 
 3. **Add an empty srtmprovider folder in the project directory**  
-   Graphhopper will automatically fill it with the needed files when runing it.
+   Graphhopper will automatically fill it with the required files when launching.
 
 ---
 
