@@ -45,6 +45,27 @@ This starts GraphHopper locally on port **8989**. You can open it in the browser
 
 ---
 
+## Run main.py
+
+Run main.py which will call GraphHopper and calculate the optimal routes. You can config variables in main.py, including multiple vehicles, work hours, stop time and so on. 
+
+```python
+# Constants
+NUM_LOCATIONS = 50
+WORK_HOURS = 7
+STOP_TIME = 30  # Minutes per stop
+TOTAL_MINUTES = WORK_HOURS * 60
+GRAPHHOPPER_URL = "http://localhost:8989/route"
+
+# 🚲🚗 Vehicle Configuration (Depot is fixed)
+DEPOT = (56.161147, 10.13455)
+vehicles_config = {
+    "bikes": [{"name": "Bike 1"}, {"name": "Bike 2"}],
+    "cars": [{"name": "Car 1"}]
+}
+```
+---
+
 ## 🧠 How It Works
 
 1. **Generate 50 random locations** in Aarhus
