@@ -7,7 +7,7 @@ This project uses **GraphHopper** and **Google OR-Tools** to generate optimal ro
 
 ## 📦 Prerequisites
 
-1. **Java** (required to run GraphHopper)
+1. **Java** (required to run GraphHopper), we used [adoptium](https://adoptium.net/)
 2. **Python** and `pip` (for the optimizer)
 3. Python packages:
    ```bash
