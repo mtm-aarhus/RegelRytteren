@@ -1,0 +1,2 @@
+[WARN] Unrealistic low speed calculated from duration. Maybe the duration is too long, or it is applied to a way that only represents a part of the connection? OSM way: 1101018143. duration=8:30 (= 510 minutes), distance=252.34429973247143 m
+[WARN] Long ferry OSM way without duration tag: 1350174232, distance: 709 km
